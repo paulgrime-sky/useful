@@ -1,6 +1,6 @@
 # IPB-15149 tests
 
-This page records the errors we had with the IPB-15149 PR.
+This page records the errors we had with the IPB-15149 PR ([Jira](https://agile.at.sky/browse/IPB-15149) / [GitHub](https://github.com/sky-uk/id-oogway/pull/687)).
 
 The summary is that there seems to be some concurrency issues with some of the tests, and that adding the `@singlenode` tag to the feature(s) can fix.
 
